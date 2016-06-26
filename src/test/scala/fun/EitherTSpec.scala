@@ -4,7 +4,7 @@ import org.scalatest.FreeSpec
 import org.scalatest.concurrent.ScalaFutures
 
 import scalaz._
-import Scalaz._
+import std.scalaFuture._
 
 import scala.concurrent.Future
 import scala.concurrent.ExecutionContext.Implicits._
