@@ -1,15 +1,14 @@
 package fun
 
-import org.scalatest.FreeSpec
+import org.scalatest
 import org.scalatest.concurrent.ScalaFutures
 
 import scalaz._
 import std.scalaFuture._
-
 import scala.concurrent.Future
 import scala.concurrent.ExecutionContext.Implicits._
 
-class EitherTSpec extends FreeSpec with ScalaFutures {
+class EitherTSpec extends scalatest.FreeSpec with ScalaFutures {
 
   case class ErrorMsg(msg: String)
 
